@@ -17,9 +17,19 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mTrueButton = (Button) findViewById(R.id.true_button);
-      //  mTrueButton.setOnClickListener(new View.OnClickListener());
-        mFalseButton = (Button) findViewById(R.id.false_button);
+        mTrueButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+                public void onClick(View v){
 
+            }
+        });
+        mFalseButton = (Button) findViewById(R.id.false_button);
+        mFalseButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+                public void onClick(View v){
+
+            }
+        });
 
     }
 }
